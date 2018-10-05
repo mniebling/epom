@@ -20,6 +20,7 @@ export default Vue.extend({
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  margin: 60px 0 0 60px;
+  margin-top: 60px;
+  text-align: center;
 }
 </style>
