@@ -1,0 +1,18 @@
+{
+  "name": "epom",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "vue": "2.5.17"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-typescript": "3.0.4",
+    "@vue/cli-service": "3.0.4",
+    "typescript": "3.1.1",
+    "vue-template-compiler": "2.5.17"
+  }
+}
