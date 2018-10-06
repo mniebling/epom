@@ -57,16 +57,26 @@ export default Vue.extend({
 }
 
 .birds-images {
+  align-items: center;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   margin: 0 auto;
-  width: 75%;
 }
 
 .bird-image {
   align-items: center;
   display: flex;
-  margin: 0 5px;
+  margin: 5px 5px;
+  width: 33%;
+}
+
+@media (min-width: 600px) {
+  .birds-images {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 90%;
+  }
 }
 
 .bird-image > img {
