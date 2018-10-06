@@ -25,7 +25,7 @@
         </div>
       </div>
       <div class="text">
-        <div>Interested in a print from the Birds series?</div>
+        <p>Interested in a print from the Birds series?</p>
         <a href="https://goo.gl/forms/QhlJwFtLJwXri9q82">Leave your email</a>
         <span> to be contacted when they're available.</span>
       </div>
@@ -43,6 +43,10 @@ export default Vue.extend({
 </script>
 
 <style lang="postcss">
+body {
+  background-color: #fafafa;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -68,7 +72,7 @@ export default Vue.extend({
   align-items: center;
   display: flex;
   margin: 5px 5px;
-  width: 33%;
+  width: 30%;
 }
 
 @media (min-width: 600px) {
