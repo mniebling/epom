@@ -1,5 +1,7 @@
 <template lang="pug">
-div#teaching Teaching: coming soon.
+div#teaching
+  h2.title Teaching
+  p Coming soon.
 </template>
 
 
@@ -11,7 +13,17 @@ export default {
 
 
 <style scoped>
+.title {
+  text-align: center;
+}
+
 #teaching {
-  margin-top: 50px;
+  line-height: 1.7;
+  padding-top: 50px;
+  max-width: 500px;
+  margin: 0 auto;
+
+  /* TODO: Remove when there's more content. */
+  text-align: center;
 }
 </style>

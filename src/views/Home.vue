@@ -1,5 +1,5 @@
 <template lang="pug">
-div
+div#home
   h1 Esther Pomranky
   p Chicago-based teaching artist.
 
@@ -38,6 +38,11 @@ export default {
 
 
 <style>
+#home {
+  margin-top: 30px;
+  text-align: center;
+}
+
 .menu {
   display: flex;
   justify-content: center;
