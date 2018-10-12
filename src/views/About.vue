@@ -28,7 +28,7 @@ export default {
 
 #about {
   line-height: 1.7;
-  padding-top: 50px;
+  padding: 50px 25px 0 25px;
   max-width: 500px;
   margin: 0 auto;
 }
