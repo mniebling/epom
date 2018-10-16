@@ -1,5 +1,6 @@
 <template lang="pug">
 div#nav
+  strong.name Esther Pomranky
   router-link.link(to="/") Home
   router-link.link(to="/teaching") Teaching
   router-link.link(to="/art") Art
@@ -18,10 +19,15 @@ export default {
 #nav {
   background-color: white;
   border-bottom: 1px solid #e9e9e9;
+  align-items: center;
   display: flex;
   justify-content: center;
   padding: 15px 0;
   width: 100%;
+}
+
+.name {
+  padding: 0 35px 0 10px;
 }
 
 .link,
