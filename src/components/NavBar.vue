@@ -27,13 +27,19 @@ export default {
 }
 
 .name {
-  padding: 0 35px 0 10px;
+  padding: 0 10px 0 10px;
 }
 
 .link,
 .link.router-link-active {
   color: green;
-  padding: 0 15px;
+  padding: 0 10px;
+}
+
+@media (min-width: 400px) {
+  .name, .link {
+    padding: 0 15px 0 15px;
+  }
 }
 
 .link.router-link-exact-active {

@@ -16,6 +16,7 @@ export default Vue.extend({
 body {
   background-color: #fafafa;
   margin: 0;
+  width: 100%;
 }
 
 h1, h2 {
