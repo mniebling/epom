@@ -25,7 +25,7 @@ div#home
 
   div.text
     p Interested in a print from the Birds series?
-    a(href="https://goo.gl/forms/QhlJwFtLJwXri9q82") Leave your email
+    a.link(href="https://goo.gl/forms/QhlJwFtLJwXri9q82") Leave your email
     span &nbsp;to be contacted when they're available.
 </template>
 
@@ -49,8 +49,12 @@ export default {
 }
 
 .link,
-.link.router-link-active {
+.link.router-link-active,
+.link:visited {
   color: green;
+}
+
+.menu > .link {
   padding: 0 15px;
 }
 

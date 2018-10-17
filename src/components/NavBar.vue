@@ -37,7 +37,7 @@ export default {
 }
 
 @media (min-width: 400px) {
-  .name, .link {
+  .name, .link, .link.router-link-active {
     padding: 0 15px 0 15px;
   }
 }
