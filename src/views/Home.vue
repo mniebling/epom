@@ -4,8 +4,12 @@ div#home
   p Chicago-based teaching artist.
 
   div.menu
-    router-link.link(to="/teaching") Teaching
     router-link.link(to="/art") Art
+    a.external.link(
+      href="https://www.etsy.com/shop/EstherPomrankyArt"
+      target="_blank"
+    ) Shop
+    router-link.link(to="/teaching") Teaching
     router-link.link(to="/about") About
 
   div.birds
