@@ -2,6 +2,14 @@
 div#art
   div.paintings
     div.painting
+      img(src="../assets/baltimore-oriole.jpg")
+      div.label Baltimore Oriole
+      div.date 2019
+    div.painting
+      img(src="../assets/barn-swallow.jpg")
+      div.label Barn Swallow
+      div.date 2019
+    div.painting
       img(src="../assets/purple-finch.jpg")
       div.label Purple Finch
       div.date 2018
