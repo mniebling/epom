@@ -3,7 +3,7 @@ div#nav
   strong.name Esther Pomranky
   router-link.link(to="/") Home
   router-link.link(to="/art") Art
-  a.external.link(
+  a.link(
     href="https://www.etsy.com/shop/EstherPomrankyArt"
     target="_blank"
   ) Shop

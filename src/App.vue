@@ -34,19 +34,4 @@ h1, h2 {
   height: 14px;
 }
 
-.external.link::after {
-  background-image: url('./assets/external.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 14px;
-  content: '';
-  height: 14px;
-  margin-left: 4px;
-  width: 14px;
-
-  @media (min-width: 560px) {
-    display: inline-block;
-  }
-}
-
 </style>
