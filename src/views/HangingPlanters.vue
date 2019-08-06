@@ -205,7 +205,6 @@ export default {
     border-left: none;
     flex-shrink: 0;
     padding-left: 0;
-    width: 450px;
   }
 
   & p:last-of-type {
@@ -241,6 +240,7 @@ export default {
     & .text {
       border-left: 1px dotted #999;
       padding-left: 15px;
+      width: 450px;
     }
 
     & p:last-of-type {
