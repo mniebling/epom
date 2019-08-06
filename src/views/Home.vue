@@ -9,7 +9,7 @@ div#home
       href="https://www.etsy.com/shop/EstherPomrankyArt"
       target="_blank"
     ) Shop
-    router-link.link(to="/teaching") Teaching
+    //- router-link.link(to="/teaching") Teaching
     a.instagram.link(
       href="https://www.instagram.com/epomrankyart"
       target="_blank"
@@ -34,6 +34,10 @@ div#home
         img(src="../assets/goldfinch.jpg")
       div.bird-image
         img(src="../assets/sparrow.jpg")
+
+    h2 Projects
+    div.other-stuff
+      router-link.link(to="/diy-hanging-planters") DIY hanging planter tutorial
 </template>
 
 
@@ -96,6 +100,7 @@ export default {
 }
 
 .bird-image {
+  align-items: flex-start; /* Fix intrinsic height of contents in Safari */
   display: flex; /* Fix whitespace after image */
 }
 
@@ -116,4 +121,9 @@ export default {
     width: 75%;
   }
 }
+
+.other-stuff {
+  margin: 15px 0 50px 0;
+}
+
 </style>

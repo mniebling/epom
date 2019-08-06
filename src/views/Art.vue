@@ -36,30 +36,33 @@ div#art
 
   div.words
     h2.title About the Birds series
-    p
-    | When I was a child, I was fascinated by my mother's <em>Birds of North
-    | America</em> field guide. She kept it on the top shelf of a bookcase in
-    | our living room, but that didn't stop me from pulling it down and flipping
-    | through it.
-    p
-    | I spent a great deal of time looking at birds I recognized (and many I didn't).
-    | Occasionally, when we saw a new bird at the feeder or on the locust tree
-    | in the back yard, Mom would pull the book down and we'd look together until
-    | we identified it.
-    p
-    | This is undoubtedly a family obsession. During my childhood trips to visit
-    | my grandparents in Florida, neither my grandma nor my grandpa ever missed
-    | the opportunity to point out the local bird life. It's entirely thanks to
-    | my mother and grandparents that I'm able to identify pretty much any bird
-    | who hops across the sidewalk.
-    p
-    | Each of the birds I've painted in this series has a special memory
-    | associated with it. The goldfinch and purple finch are regular guests at
-    | my Mom's birdfeeders. The sparrow reminds me of the one I rescued from a
-    | light fixture and rehabilitated in my laundry room. The first titmouse I
-    | spotted was courtesy of my grandma in Michigan one summer. The bluebird is
-    | an homage to my grandma, who remains alive in my memory as one of the
-    | kindest, most vibrant women I've ever known.
+    p.
+      When I was a child, I was fascinated by my mother's <em>Birds of North
+      America</em> field guide. She kept it on the top shelf of a bookcase in
+      our living room, but that didn't stop me from pulling it down and flipping
+      through it.
+
+    p.
+      I spent a great deal of time looking at birds I recognized (and many I didn't).
+      Occasionally, when we saw a new bird at the feeder or on the locust tree
+      in the back yard, Mom would pull the book down and we'd look together until
+      we identified it.
+
+    p.
+      This is undoubtedly a family obsession. During my childhood trips to visit
+      my grandparents in Florida, neither my grandma nor my grandpa ever missed
+      the opportunity to point out the local bird life. It's entirely thanks to
+      my mother and grandparents that I'm able to identify pretty much any bird
+      who hops across the sidewalk.
+
+    p.
+      Each of the birds I've painted in this series has a special memory
+      associated with it. The goldfinch and purple finch are regular guests at
+      my Mom's birdfeeders. The sparrow reminds me of the one I rescued from a
+      light fixture and rehabilitated in my laundry room. The first titmouse I
+      spotted was courtesy of my grandma in Michigan one summer. The bluebird is
+      an homage to my grandma, who remains alive in my memory as one of the
+      kindest, most vibrant women I've ever known.
 </template>
 
 

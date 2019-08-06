@@ -41,6 +41,14 @@ export default new Router({
         header: NavBar,
         content: () => import(/* webpackChunkName: "art" */ './views/Art.vue')
       }
+    },
+    {
+      path: '/diy-hanging-planters',
+      name: 'diy-hanging-planters',
+      components: {
+        header: NavBar,
+        content: () => import(/* webpackChunkName: "hangingPlanters" */ './views/HangingPlanters.vue')
+      }
     }
   ]
 })
