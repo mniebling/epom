@@ -9,8 +9,11 @@ div#home
       href="https://www.etsy.com/shop/EstherPomrankyArt"
       target="_blank"
     ) Shop
-    //- router-link.link(to="/teaching") Teaching
-    a.instagram.link(
+    a.youtube.icon.link(
+      href="https://www.youtube.com/channel/UCiV2K5Ni2qZSmBaGwv8G49w"
+      target="_blank"
+    ) YouTube
+    a.instagram.icon.link(
       href="https://www.instagram.com/epomrankyart"
       target="_blank"
     ) Instagram
@@ -66,8 +69,7 @@ export default {
   color: green;
 }
 
-.instagram.link::before {
-  background-image: url('../assets/instagram.svg');
+.icon.link::before {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 14px;
@@ -81,6 +83,14 @@ export default {
   }
 }
 
+.instagram.icon.link::before {
+  background-image: url('../assets/instagram.svg');
+}
+
+.youtube.icon.link::before {
+  background-image: url('../assets/youtube.svg');
+}
+
 .menu > .link {
   padding: 0 15px;
 }
@@ -90,12 +100,12 @@ export default {
 }
 
 .birds-images {
+  column-gap: 10px;
   display: grid;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);
   margin: 0 auto 50px auto;
+  row-gap: 10px;
   width: 90%;
 }
 
@@ -105,8 +115,8 @@ export default {
 }
 
 .bird-image > img {
-  max-width: 100%;
-  max-height: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 @media (min-width: 700px) {
