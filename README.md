@@ -1,3 +1,3 @@
-# epom
+# Esther's site
 
-`npm start`: Run locally with hot-reloading.
+This is a simple Next.js site to show off Esther's artwork and some other stuff.
