@@ -1,0 +1,81 @@
+.plantersPage {
+	line-height: 1.7;
+	margin: 0 25px 50px 25px;
+	max-width: 800px;
+	padding-top: var(--page-top-padding);
+}
+
+.title {
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.supplies {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+}
+
+.supplies :global(.link) {
+	margin: 2px 0;
+}
+
+.step {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+
+.stepImageContainer {
+	margin: 0 0 20px 0;
+	height: 250px;
+	position: relative;
+	width: 100%;
+}
+
+.stepImage {
+	object-fit: contain;
+	object-position: left;
+}
+
+.stepText {
+	border-left: none;
+	flex-shrink: 0;
+	padding-left: 0;
+}
+
+.stepNumber {
+	margin-right: 4px;
+}
+
+
+@media (min-width: 860px) {
+	.plantersPage {
+		margin: 0 auto 50px auto;
+		max-width: 800px;
+	}
+
+	.step {
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+
+	.stepImageContainer {
+		margin: 0 20px 0 0;
+	}
+
+	.stepImage {
+		object-position: right top;
+	}
+
+	.stepText {
+		border-left: 1px dotted #999;
+		padding-left: 15px;
+		width: 450px;
+	}
+
+	.paragraph:last-of-type {
+		margin-bottom: 0;
+	}
+}

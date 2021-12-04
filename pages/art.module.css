@@ -1,6 +1,6 @@
 .artPage {
 	line-height: 1.7;
-	padding-top: 50px;
+	padding-top: var(--page-top-padding);
 	max-width: 500px;
 	margin: 0 auto;
 }

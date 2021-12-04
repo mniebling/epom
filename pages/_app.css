@@ -1,5 +1,6 @@
 body {
 	--color-primary: green;
+	--page-top-padding: 50px;
 
 	background-color: #fafafa;
 	color: #2c3e50;
