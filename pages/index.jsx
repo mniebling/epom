@@ -1,16 +1,9 @@
 import classNames from 'classnames'
 import Image from 'next/image'
 import Link from 'next/link'
+import * as images from '../public/paintings'
 import css from './index.module.css'
 
-import baltimoreOriole from '../public/paintings/baltimore-oriole.jpg'
-import barnSwallow from '../public/paintings/barn-swallow.jpg'
-import purpleFinch from '../public/paintings/purple-finch.jpg'
-import cardinal from '../public/paintings/cardinal.jpg'
-import titmouse from '../public/paintings/titmouse.jpg'
-import bluebird from '../public/paintings/bluebird.jpg'
-import goldfinch from '../public/paintings/goldfinch.jpg'
-import sparrow from '../public/paintings/sparrow.jpg'
 
 export default function IndexPage () {
 
@@ -46,56 +39,56 @@ export default function IndexPage () {
 					<Image
 						alt='Painting of a Baltimore Oriole'
 						className={ css.painting }
-						src={ baltimoreOriole }
+						src={ images.baltimoreOriole }
 					/>
 				</div>
 				<div className={ css.paintingCell }>
 					<Image
 						alt='Painting of a Barn Swallow'
 						className={ css.painting }
-						src={ barnSwallow }
+						src={ images.barnSwallow }
 					/>
 				</div>
 				<div className={ css.paintingCell }>
 					<Image
 						alt='Painting of a Purple Finch'
 						className={ css.painting }
-						src={ purpleFinch }
+						src={ images.purpleFinch }
 					/>
 				</div>
 				<div className={ css.paintingCell }>
 					<Image
 						alt='Painting of a Cardinal'
 						className={ css.painting }
-						src={ cardinal }
+						src={ images.cardinal }
 					/>
 				</div>
 				<div className={ css.paintingCell }>
 					<Image
 						alt='Painting of a Tufted Titmouse'
 						className={ css.painting }
-						src={ titmouse }
+						src={ images.titmouse }
 					/>
 				</div>
 				<div className={ css.paintingCell }>
 					<Image
 						alt='Painting of a Bluebird'
 						className={ css.painting }
-						src={ bluebird }
+						src={ images.bluebird }
 					/>
 				</div>
 				<div className={ css.paintingCell }>
 					<Image
 						alt='Painting of a Goldfinch'
 						className={ css.painting }
-						src={ goldfinch }
+						src={ images.goldfinch }
 					/>
 				</div>
 				<div className={ css.paintingCell }>
 					<Image
 						alt='Painting of a Sparrow'
 						className={ css.painting }
-						src={ sparrow }
+						src={ images.sparrow }
 					/>
 				</div>
 			</div>

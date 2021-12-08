@@ -1,15 +1,7 @@
 import Image from 'next/image'
 import NavBar from '../components/NavBar'
+import * as images from '../public/paintings'
 import css from './art.module.css'
-
-import baltimoreOriole from '../public/paintings/baltimore-oriole.jpg'
-import barnSwallow from '../public/paintings/barn-swallow.jpg'
-import purpleFinch from '../public/paintings/purple-finch.jpg'
-import cardinal from '../public/paintings/cardinal.jpg'
-import titmouse from '../public/paintings/titmouse.jpg'
-import bluebird from '../public/paintings/bluebird.jpg'
-import goldfinch from '../public/paintings/goldfinch.jpg'
-import sparrow from '../public/paintings/sparrow.jpg'
 
 export default function Art () {
 
@@ -24,7 +16,7 @@ export default function Art () {
 						<Image
 							alt='Painting of a Baltimore Oriole'
 							className={ css.painting }
-							src={ baltimoreOriole }
+							src={ images.baltimoreOriole }
 						/>
 						<div className={ css.title }>Baltimore Oriole</div>
 						<div className={ css.date }>2019</div>
@@ -34,7 +26,7 @@ export default function Art () {
 						<Image
 							alt='Painting of a Barn Swallow'
 							className={ css.painting }
-							src={ barnSwallow }
+							src={ images.barnSwallow }
 						/>
 						<div className={ css.title }>Barn Swallow</div>
 						<div className={ css.date }>2019</div>
@@ -44,7 +36,7 @@ export default function Art () {
 						<Image
 							alt='Painting of a Purple Finch'
 							className={ css.painting }
-							src={ purpleFinch }
+							src={ images.purpleFinch }
 						/>
 						<div className={ css.title }>Purple Finch</div>
 						<div className={ css.date }>2018</div>
@@ -54,7 +46,7 @@ export default function Art () {
 						<Image
 							alt='Painting of a Cardinal'
 							className={ css.painting }
-							src={ cardinal }
+							src={ images.cardinal }
 						/>
 						<div className={ css.title }>Cardinal</div>
 						<div className={ css.date }>2018</div>
@@ -64,7 +56,7 @@ export default function Art () {
 						<Image
 							alt='Painting of a Tufted Titmouse'
 							className={ css.painting }
-							src={ titmouse }
+							src={ images.titmouse }
 						/>
 						<div className={ css.title }>Tufted Titmouse</div>
 						<div className={ css.date }>2018</div>
@@ -74,7 +66,7 @@ export default function Art () {
 						<Image
 							alt='Painting of a Bluebird'
 							className={ css.painting }
-							src={ bluebird }
+							src={ images.bluebird }
 						/>
 						<div className={ css.title }>Bluebird</div>
 						<div className={ css.date }>2018</div>
@@ -84,7 +76,7 @@ export default function Art () {
 						<Image
 							alt='Painting of a Goldfinch'
 							className={ css.painting }
-							src={ goldfinch }
+							src={ images.goldfinch }
 						/>
 						<div className={ css.title }>Goldfinch</div>
 						<div className={ css.date }>2018</div>
@@ -94,7 +86,7 @@ export default function Art () {
 						<Image
 							alt='Painting of a Sparrow'
 							className={ css.painting }
-							src={ sparrow }
+							src={ images.sparrow }
 						/>
 						<div className={ css.title }>Sparrow</div>
 						<div className={ css.date }>2018</div>
