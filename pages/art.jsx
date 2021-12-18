@@ -12,14 +12,14 @@ export default function Art () {
 			<div className={ css.artPage }>
 				<div className={ css.paintings }>
 
-					<div className={ css.paintingCell }>
+				<div className={ css.paintingCell }>
 						<Image
-							alt='Painting of a Baltimore Oriole'
+							alt='Painting of a Blue Jay'
 							className={ css.painting }
-							src={ images.baltimoreOriole }
+							src={ images.blueJay }
 						/>
-						<div className={ css.title }>Baltimore Oriole</div>
-						<div className={ css.date }>2019</div>
+						<div className={ css.title }>Blue Jay</div>
+						<div className={ css.date }>2019 • 8×10″ • $400</div>
 					</div>
 
 					<div className={ css.paintingCell }>
@@ -29,7 +29,17 @@ export default function Art () {
 							src={ images.barnSwallow }
 						/>
 						<div className={ css.title }>Barn Swallow</div>
-						<div className={ css.date }>2019</div>
+						<div className={ css.date }>2019 • 8×10″ • Sold</div>
+					</div>
+
+					<div className={ css.paintingCell }>
+						<Image
+							alt='Painting of a Baltimore Oriole'
+							className={ css.painting }
+							src={ images.baltimoreOriole }
+						/>
+						<div className={ css.title }>Baltimore Oriole</div>
+						<div className={ css.date }>2019 • 8×10″ • Sold</div>
 					</div>
 
 					<div className={ css.paintingCell }>
@@ -39,7 +49,7 @@ export default function Art () {
 							src={ images.purpleFinch }
 						/>
 						<div className={ css.title }>Purple Finch</div>
-						<div className={ css.date }>2018</div>
+						<div className={ css.date }>2018 • 8×10″ • Sold</div>
 					</div>
 
 					<div className={ css.paintingCell }>
@@ -49,7 +59,7 @@ export default function Art () {
 							src={ images.cardinal }
 						/>
 						<div className={ css.title }>Cardinal</div>
-						<div className={ css.date }>2018</div>
+						<div className={ css.date }>2018 • 8×10″ • Sold</div>
 					</div>
 
 					<div className={ css.paintingCell }>
@@ -59,7 +69,7 @@ export default function Art () {
 							src={ images.titmouse }
 						/>
 						<div className={ css.title }>Tufted Titmouse</div>
-						<div className={ css.date }>2018</div>
+						<div className={ css.date }>2018 • 8×10″ • $300</div>
 					</div>
 
 					<div className={ css.paintingCell }>
@@ -69,17 +79,7 @@ export default function Art () {
 							src={ images.bluebird }
 						/>
 						<div className={ css.title }>Bluebird</div>
-						<div className={ css.date }>2018</div>
-					</div>
-
-					<div className={ css.paintingCell }>
-						<Image
-							alt='Painting of a Goldfinch'
-							className={ css.painting }
-							src={ images.goldfinch }
-						/>
-						<div className={ css.title }>Goldfinch</div>
-						<div className={ css.date }>2018</div>
+						<div className={ css.date }>2018 • 8×10″ • Sold</div>
 					</div>
 
 					<div className={ css.paintingCell }>
@@ -89,7 +89,17 @@ export default function Art () {
 							src={ images.sparrow }
 						/>
 						<div className={ css.title }>Sparrow</div>
-						<div className={ css.date }>2018</div>
+						<div className={ css.date }>2018 • 8×10″ • $300</div>
+					</div>
+
+					<div className={ css.paintingCell }>
+						<Image
+							alt='Painting of a Goldfinch'
+							className={ css.painting }
+							src={ images.goldfinch }
+						/>
+						<div className={ css.title }>Goldfinch</div>
+						<div className={ css.date }>2018 • 8×10″ • $200</div>
 					</div>
 
 				</div>

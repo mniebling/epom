@@ -35,6 +35,13 @@ export default function IndexPage () {
 			</div>
 
 			<div className={ css.paintings }>
+			<div className={ css.paintingCell }>
+					<Image
+						alt='Painting of a Blue Jay'
+						className={ css.painting }
+						src={ images.blueJay }
+					/>
+				</div>
 				<div className={ css.paintingCell }>
 					<Image
 						alt='Painting of a Baltimore Oriole'
@@ -75,13 +82,6 @@ export default function IndexPage () {
 						alt='Painting of a Bluebird'
 						className={ css.painting }
 						src={ images.bluebird }
-					/>
-				</div>
-				<div className={ css.paintingCell }>
-					<Image
-						alt='Painting of a Goldfinch'
-						className={ css.painting }
-						src={ images.goldfinch }
 					/>
 				</div>
 				<div className={ css.paintingCell }>
