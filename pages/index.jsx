@@ -11,15 +11,16 @@ export default function IndexPage () {
 		<>
 			<div className={ css.header }>
 				<h1>Esther Pomranky</h1>
-				<div className={ css.subheader }>Chicago-based teaching artist.</div>
+				<div className={ css.subheader }>Chicago-based teaching artist & gardener.</div>
 
 				<div className={ css.links }>
 					<Link href='/art'>
 						<a className='link'>Art</a>
 					</Link>
-					<Link href='https://www.etsy.com/shop/EstherPomrankyArt'>
+					{/* Not using the Etsy shop right now. */}
+					{/* <Link href='https://www.etsy.com/shop/EstherPomrankyArt'>
 						<a className='link'>Shop</a>
-					</Link>
+					</Link> */}
 					<Link href='https://www.youtube.com/channel/UCiV2K5Ni2qZSmBaGwv8G49w'>
 						<a className={ classNames('link', css.icon, css.youtube) }>
 							YouTube
