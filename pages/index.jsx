@@ -14,29 +14,33 @@ export default function IndexPage () {
 				<div className={ css.subheader }>Chicago-based teaching artist & gardener.</div>
 
 				<div className={ css.links }>
-					<Link href='/art'>
-						<a className='link'>Art</a>
+					<Link className='link' href='/art'>
+						Art
 					</Link>
 					{/* Not using the Etsy shop right now. */}
-					{/* <Link href='https://www.etsy.com/shop/EstherPomrankyArt'>
-						<a className='link'>Shop</a>
+					{/* <Link className='link' href='https://www.etsy.com/shop/EstherPomrankyArt'>
+						Shop
 					</Link> */}
-					<Link href='https://www.youtube.com/channel/UCiV2K5Ni2qZSmBaGwv8G49w'>
-						<a className={ classNames('link', css.icon, css.youtube) }>
-							YouTube
-						</a>
+					<Link
+						className={ classNames('link', css.icon, css.youtube) }
+						href='https://www.youtube.com/channel/UCiV2K5Ni2qZSmBaGwv8G49w'
+					>
+						YouTube
 					</Link>
-					<Link href='https://www.instagram.com/epomrankyart'>
-						<a className={ classNames('link', css.icon, css.instagram) }>Instagram</a>
+					<Link
+						className={ classNames('link', css.icon, css.instagram) }
+						href='https://www.instagram.com/epomrankyart'
+					>
+						Instagram
 					</Link>
-					<Link href='/about'>
-						<a className='link'>About</a>
+					<Link className='link' href='/about'>
+						About
 					</Link>
 				</div>
 			</div>
 
 			<div className={ css.paintings }>
-			<div className={ css.paintingCell }>
+				<div className={ css.paintingCell }>
 					<Image
 						alt='Painting of a Blue Jay'
 						className={ css.painting }
@@ -97,8 +101,8 @@ export default function IndexPage () {
 			<div className={ css.projects }>
 				<h2 className={ css.projectsHeader }>Projects</h2>
 
-				<Link href='/diy-hanging-planters'>
-					<a className='link'>DIY hanging planter tutorial</a>
+				<Link className='link' href='/diy-hanging-planters'>
+					DIY hanging planter tutorial
 				</Link>
 			</div>
 		</>

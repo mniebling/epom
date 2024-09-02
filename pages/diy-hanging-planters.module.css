@@ -28,15 +28,16 @@
 }
 
 .stepImageContainer {
+	display: flex;
+	justify-content: center;
 	margin: 0 0 20px 0;
 	height: 250px;
-	position: relative;
 	width: 100%;
 }
 
 .stepImage {
-	object-fit: contain;
-	object-position: left;
+	height: 100%;
+	width: auto;
 }
 
 .stepText {
@@ -62,11 +63,8 @@
 	}
 
 	.stepImageContainer {
+		justify-content: flex-end;
 		margin: 0 20px 0 0;
-	}
-
-	.stepImage {
-		object-position: right top;
 	}
 
 	.stepText {

@@ -18,6 +18,11 @@
 	width: 48%;
 }
 
+.paintingCell img {
+	height: auto;
+	width: 100%;
+}
+
 .title {
 	display: flex;
 	line-height: 1.25;

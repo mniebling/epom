@@ -12,7 +12,7 @@ export default function Art () {
 			<div className={ css.artPage }>
 				<div className={ css.paintings }>
 
-				<div className={ css.paintingCell }>
+					<div className={ css.paintingCell }>
 						<Image
 							alt='Painting of a Blue Jay'
 							className={ css.painting }

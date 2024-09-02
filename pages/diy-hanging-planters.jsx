@@ -1,9 +1,8 @@
 import classNames from 'classnames'
 import Image from 'next/image'
 import NavBar from '../components/NavBar'
-import css from './diy-hanging-planters.module.css'
-
 import * as images from '../public/hanging-planters'
+import css from './diy-hanging-planters.module.css'
 
 
 export default function DIYHangingPlanters () {
@@ -18,7 +17,12 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.supplies } className={ css.stepImage } layout='fill' />
+						<Image
+							alt='All the supplies required for the project'
+							className={ css.stepImage }
+							priority
+							src={ images.supplies }
+						/>
 					</div>
 					<div className={ css.stepText }>
 						<strong>Supplies</strong>
@@ -47,7 +51,11 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.step01 } className={ css.stepImage } layout='fill' />
+						<Image
+							alt='The craft hoop, covered in twine'
+							src={ images.step01 }
+							className={ css.stepImage }
+						/>
 					</div>
 					<div className={ css.stepText }>
 						<strong className={ css.stepNumber }>Step 1:</strong>
@@ -62,7 +70,11 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.step02 } className={ css.stepImage } layout='fill' />
+						<Image
+							alt='The craft hoop, with four marker lines at the cardinal directions'
+							src={ images.step02 }
+							className={ css.stepImage }
+						/>
 					</div>
 					<div className={ css.stepText }>
 						<strong className={ css.stepNumber }>Step 2:</strong>
@@ -82,7 +94,11 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.step03 } className={ css.stepImage } layout='fill' />
+						<Image
+							alt='Measure the wire by putting it inside the hoop'
+							src={ images.step03 }
+							className={ css.stepImage }
+						/>
 					</div>
 					<div className={ css.stepText }>
 						<strong className={ css.stepNumber }>Step 3:</strong>
@@ -105,7 +121,11 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.step04 } className={ css.stepImage } layout='fill' />
+						<Image
+							alt='Close-up of the wire looped around the hoop'
+							src={ images.step04 }
+							className={ css.stepImage }
+						/>
 					</div>
 					<div className={ css.stepText }>
 						<strong className={ css.stepNumber }>Step 4:</strong>
@@ -119,7 +139,11 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.step05 } className={ css.stepImage } layout='fill' />
+						<Image
+							alt='A complete hanging loop'
+							src={ images.step05 }
+							className={ css.stepImage }
+						/>
 					</div>
 					<div className={ css.stepText }>
 						<strong className={ css.stepNumber }>Step 5:</strong>
@@ -143,7 +167,11 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.step06 } className={ css.stepImage } layout='fill' />
+						<Image
+							alt='A larger hanging loop'
+							src={ images.step06 }
+							className={ css.stepImage }
+						/>
 					</div>
 					<div className={ css.stepText }>
 						<strong className={ css.stepNumber }>Step 6:</strong>
@@ -162,7 +190,11 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.step07 } className={ css.stepImage } layout='fill' />
+						<Image
+							alt='The loop of wire hanging from a circular carabiner'
+							src={ images.step07 }
+							className={ css.stepImage }
+						/>
 					</div>
 					<div className={ css.stepText }>
 						<strong className={ css.stepNumber }>Step 7:</strong>
@@ -175,7 +207,11 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.step08 } className={ css.stepImage } className={ css.stepImage } layout='fill' />
+						<Image
+							alt='The large hoop on the carabiner also, with a plant inside'
+							src={ images.step08 }
+							className={ css.stepImage }
+						/>
 					</div>
 					<div className={ css.stepText }>
 						<strong className={ css.stepNumber }>Step 8:</strong>
@@ -188,7 +224,11 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.step09 } className={ css.stepImage } layout='fill' />
+						<Image
+							alt='Hanging the carabiner from a curtain rod'
+							src={ images.step09 }
+							className={ css.stepImage }
+						/>
 					</div>
 					<div className={ css.stepText }>
 						<strong className={ css.stepNumber }>Step 9:</strong>
@@ -214,7 +254,11 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.done } className={ css.stepImage } layout='fill' />
+						<Image
+							alt='The finished project'
+							src={ images.done }
+							className={ css.stepImage }
+						/>
 					</div>
 					<div className={ css.stepText }>
 						<strong>All done 🌱🌿🌻</strong>
