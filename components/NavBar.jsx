@@ -11,20 +11,33 @@ export default function NavBar () {
 		<nav className={ css.navBar }>
 			<strong className={ css.name }>Esther Pomranky</strong>
 
-			<Link href="/">
-				<a className={ classNames('link', { [css.isActive]: router.asPath === '/' }) }>Home</a>
+			<Link
+				className={ classNames('link', { [css.isActive]: router.asPath === '/' }) }
+				href='/'
+			>
+				Home
 			</Link>
 
-			<Link href="/art">
-				<a className={ classNames('link', { [css.isActive]: router.asPath === '/art' }) }>Art</a>
+			<Link
+				className={ classNames('link', { [css.isActive]: router.asPath === '/art' }) }
+				href='/art'
+			>
+				Art
 			</Link>
 
-			<Link href="https://www.etsy.com/shop/EstherPomrankyArt" target="_blank">
-				<a className='link'>Shop</a>
-			</Link>
+			{/* Not using the shop link right now. */}
+			{/* <Link
+				className='link'
+				href='https://www.etsy.com/shop/EstherPomrankyArt' target='_blank'
+			>
+				Shop
+			</Link> */}
 
-			<Link href="/about">
-				<a className={ classNames('link', { [css.isActive]: router.asPath === '/about' }) }>About</a>
+			<Link
+				className={ classNames('link', { [css.isActive]: router.asPath === '/about' }) }
+				href='/about'
+			>
+				About
 			</Link>
 		</nav>
 	)

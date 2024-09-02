@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import NavBar from '../components/NavBar'
 import * as images from '../public/paintings'
 import css from './art.module.css'
