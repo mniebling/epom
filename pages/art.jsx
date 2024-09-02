@@ -16,6 +16,7 @@ export default function Art () {
 						<Image
 							alt='Painting of a Blue Jay'
 							className={ css.painting }
+							priority
 							src={ images.blueJay }
 						/>
 						<div className={ css.title }>Blue Jay</div>
