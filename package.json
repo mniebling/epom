@@ -1,21 +1,17 @@
 {
-  "name": "epom",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "build": "next build",
-    "start": "next dev"
-  },
-  "dependencies": {
-    "classnames": "2.3.1",
-    "d3-delaunay": "6.0.2",
-    "light-fakery": "0.0.6",
-    "next": "12.0.5",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "browserslist": [
-    "defaults",
-    "not ie 11"
-  ]
+	"name": "epom",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"build": "next build",
+		"start": "next dev"
+	},
+	"dependencies": {
+		"classnames": "2.3.1",
+		"d3-delaunay": "6.0.2",
+		"light-fakery": "0.0.6",
+		"next": "13.5.6",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	}
 }
