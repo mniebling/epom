@@ -1,9 +1,8 @@
 import classNames from 'classnames'
 import Image from 'next/image'
 import NavBar from '../components/NavBar'
-import css from './diy-hanging-planters.module.css'
-
 import * as images from '../public/hanging-planters'
+import css from './diy-hanging-planters.module.css'
 
 
 export default function DIYHangingPlanters () {
