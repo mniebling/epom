@@ -1,5 +1,5 @@
 import classNames from 'classnames'
-import Image from 'next/legacy/image'
+import Image from 'next/image'
 import Link from 'next/link'
 import * as images from '../public/paintings'
 import css from './index.module.css'
@@ -40,7 +40,7 @@ export default function IndexPage () {
 			</div>
 
 			<div className={ css.paintings }>
-			<div className={ css.paintingCell }>
+				<div className={ css.paintingCell }>
 					<Image
 						alt='Painting of a Blue Jay'
 						className={ css.painting }

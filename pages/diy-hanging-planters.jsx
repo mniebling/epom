@@ -1,5 +1,5 @@
 import classNames from 'classnames'
-import Image from 'next/legacy/image'
+import Image from 'next/image'
 import NavBar from '../components/NavBar'
 import css from './diy-hanging-planters.module.css'
 
@@ -18,7 +18,7 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.supplies } className={ css.stepImage } layout='fill' />
+						<Image src={ images.supplies } className={ css.stepImage } />
 					</div>
 					<div className={ css.stepText }>
 						<strong>Supplies</strong>
@@ -47,7 +47,7 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.step01 } className={ css.stepImage } layout='fill' />
+						<Image src={ images.step01 } className={ css.stepImage } />
 					</div>
 					<div className={ css.stepText }>
 						<strong className={ css.stepNumber }>Step 1:</strong>
@@ -62,7 +62,7 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.step02 } className={ css.stepImage } layout='fill' />
+						<Image src={ images.step02 } className={ css.stepImage } />
 					</div>
 					<div className={ css.stepText }>
 						<strong className={ css.stepNumber }>Step 2:</strong>
@@ -82,7 +82,7 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.step03 } className={ css.stepImage } layout='fill' />
+						<Image src={ images.step03 } className={ css.stepImage } />
 					</div>
 					<div className={ css.stepText }>
 						<strong className={ css.stepNumber }>Step 3:</strong>
@@ -105,7 +105,7 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.step04 } className={ css.stepImage } layout='fill' />
+						<Image src={ images.step04 } className={ css.stepImage } />
 					</div>
 					<div className={ css.stepText }>
 						<strong className={ css.stepNumber }>Step 4:</strong>
@@ -119,7 +119,7 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.step05 } className={ css.stepImage } layout='fill' />
+						<Image src={ images.step05 } className={ css.stepImage } />
 					</div>
 					<div className={ css.stepText }>
 						<strong className={ css.stepNumber }>Step 5:</strong>
@@ -143,7 +143,7 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.step06 } className={ css.stepImage } layout='fill' />
+						<Image src={ images.step06 } className={ css.stepImage } />
 					</div>
 					<div className={ css.stepText }>
 						<strong className={ css.stepNumber }>Step 6:</strong>
@@ -162,7 +162,7 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.step07 } className={ css.stepImage } layout='fill' />
+						<Image src={ images.step07 } className={ css.stepImage } />
 					</div>
 					<div className={ css.stepText }>
 						<strong className={ css.stepNumber }>Step 7:</strong>
@@ -175,7 +175,7 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.step08 } className={ css.stepImage } className={ css.stepImage } layout='fill' />
+						<Image src={ images.step08 } className={ css.stepImage } />
 					</div>
 					<div className={ css.stepText }>
 						<strong className={ css.stepNumber }>Step 8:</strong>
@@ -188,7 +188,7 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.step09 } className={ css.stepImage } layout='fill' />
+						<Image src={ images.step09 } className={ css.stepImage } />
 					</div>
 					<div className={ css.stepText }>
 						<strong className={ css.stepNumber }>Step 9:</strong>
@@ -214,7 +214,7 @@ export default function DIYHangingPlanters () {
 
 				<div className={ css.step }>
 					<div className={ css.stepImageContainer }>
-						<Image src={ images.done } className={ css.stepImage } layout='fill' />
+						<Image src={ images.done } className={ css.stepImage } />
 					</div>
 					<div className={ css.stepText }>
 						<strong>All done 🌱🌿🌻</strong>
