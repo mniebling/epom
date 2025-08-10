@@ -1,0 +1,25 @@
+---
+// TODO: generalize to PostLayout?
+import SiteLayout from './SiteLayout.astro'
+---
+
+<SiteLayout>
+	<!-- TODO: NavBar -->
+	<div class="about">
+		<h2>About Esther</h2>
+		<slot />
+	</div>
+</SiteLayout>
+
+<style>
+	h2 {
+		text-align: center;
+	}
+
+	.about {
+		line-height: 1.7;
+		margin: 0 auto;
+		max-width: 500px;
+		padding: 50px 25px 0 25px;
+	}
+</style>
