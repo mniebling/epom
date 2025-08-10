@@ -1,12 +1,13 @@
 ---
-// TODO: generalize to PostLayout?
+import NavBar from '../components/NavBar.astro'
 import SiteLayout from './SiteLayout.astro'
 ---
 
 <SiteLayout>
-	<!-- TODO: NavBar -->
-	<div class="about">
-		<h2>About Esther</h2>
+	<NavBar />
+
+	<div class="page">
+		<h2>{ Astro.props.frontmatter.title }</h2>
 		<slot />
 	</div>
 </SiteLayout>
@@ -16,7 +17,7 @@ import SiteLayout from './SiteLayout.astro'
 		text-align: center;
 	}
 
-	.about {
+	.page {
 		line-height: 1.7;
 		margin: 0 auto;
 		max-width: 500px;
