@@ -2,7 +2,7 @@
 import { Image } from 'astro:assets'
 import PageLayout from '../layouts/PageLayout.astro'
 
-// https://docs.astro.build/en/recipes/dynamically-importing-paintings/
+// https://docs.astro.build/en/recipes/dynamically-importing-images/
 const paintings = import.meta.glob<{ default: ImageMetadata }>('../assets/paintings/*.jpg')
 ---
 
