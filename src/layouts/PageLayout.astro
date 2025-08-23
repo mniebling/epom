@@ -1,13 +1,19 @@
 ---
 import NavBar from '../components/NavBar.astro'
 import SiteLayout from './SiteLayout.astro'
+
+interface Props {
+	// TODO: this suggests the wrong level of abstraction for page vs. site layout
+	centered?: boolean
+	title: string
+}
 ---
 
 <SiteLayout>
 	<NavBar />
 
-	<div class="page">
-		<h2>{ Astro.props.frontmatter.title }</h2>
+	<div class:list={["page", { centered: Astro.props.centered }]}>
+		<h2>{ Astro.props.title }</h2>
 		<slot />
 	</div>
 </SiteLayout>
@@ -20,7 +26,10 @@ import SiteLayout from './SiteLayout.astro'
 	.page {
 		line-height: 1.7;
 		margin: 0 auto;
-		max-width: 500px;
 		padding: 50px 25px 0 25px;
+	}
+
+	.page.centered {
+		max-width: 500px;
 	}
 </style>
