@@ -7,8 +7,8 @@
 		"start": "astro dev"
 	},
 	"dependencies": {
-		"@astrojs/mdx": "4.3.3",
+		"@astrojs/mdx": "4.3.4",
     "@fontsource/source-serif-pro": "5.2.5",
-    "astro": "5.12.9"
+    "astro": "5.13.3"
 	}
 }
