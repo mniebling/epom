@@ -1,3 +1,5 @@
-.next/
-.npm/
+.astro/
 node_modules/
+dist/
+
+*.DS_Store

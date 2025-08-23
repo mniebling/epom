@@ -1,14 +1,22 @@
-body {
+html {
 	--color-primary: green;
+	--font-family-primary: "Source Serif Pro", serif;
 	--page-top-padding: 50px;
+}
 
+body {
 	background-color: #fafafa;
 	color: #2c3e50;
+	font-family: var(--font-family-primary);
 	margin: 0;
 }
 
 h1, h2 {
 	margin: 0;
+}
+
+p {
+	max-width: 500px;
 }
 
 .link {
