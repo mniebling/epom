@@ -78,7 +78,13 @@ import SiteLayout from '../layouts/SiteLayout.astro'
 		flex-direction: column;
 		justify-content: center;
 		margin: 25px auto 0 auto;
-		width: 50%;
+		width: 100%;
+	}
+
+	@media (min-width: 750px) {
+		.heroes {
+			width: 750px;
+		}
 	}
 
 	.hero {
@@ -87,6 +93,11 @@ import SiteLayout from '../layouts/SiteLayout.astro'
 		margin-bottom: 5px;
 		overflow: hidden;
 		position: relative;
+	}
+
+	.hero:hover .heroText {
+		background-color: rgba(0, 0, 0, 0.75);
+		transform: translate(-50%, -50%) scale(105%);
 	}
 
 	.heroImage {
@@ -106,18 +117,19 @@ import SiteLayout from '../layouts/SiteLayout.astro'
 	}
 
 	.heroText {
-		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+		align-items: center;
+		backdrop-filter: blur(2px);
+		background-color: rgba(0, 0, 0, 0.5);
+		border-radius: 3px;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
-		position: absolute;
 		left: 50%;
-		top: 50%;
-		transform: translate(-50%, -50%);
-		background-color: rgba(0, 0, 0, 0.5);
-		backdrop-filter: blur(2px);
-		border-radius: 3px;
 		padding: 8px 20px;
+		position: absolute;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+		top: 50%;
+		transition: all 0.25s;
+		transform: translate(-50%, -50%);
 	}
 
 	.heroHeader {
